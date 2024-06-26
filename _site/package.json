@@ -1,0 +1,15 @@
+{
+  "name": "ben.sanders.life",
+  "version": "1.0.0",
+  "description": "This Jekyll Theme is free to use for anyone who wants it I just ask you remove\r my content first. A credit is greatly appreciated but not necessary. Thank you!",
+  "main": "index.js",
+  "dependencies": {
+    "medium-zoom": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

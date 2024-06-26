@@ -1,0 +1,157 @@
+/*
+Theme Name: Designers Theme
+Creator: Ben Sanders
+URL: Bensanders.me
+License: Creative Commons License
+*/
+a {
+  color: #0074D9;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.active {
+  text-decoration: underline; }
+
+/* Hide the link that should open and close the topnav on small screens */
+.title .icon {
+  display: none; }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .title a:not(:first-child) {
+    display: none; }
+
+  .title a.icon {
+    float: right;
+    display: block; } }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .title.responsive {
+    position: relative; }
+
+  .title.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .title.responsive a {
+    float: none;
+    display: block;
+    text-align: left; } }
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  display: block;
+  margin: 8px; }
+
+html, body {
+  font: 13.34px Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100%; }
+
+.site {
+  font-size: 110%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em; }
+
+.site .meta {
+  color: #aaa; }
+
+.title {
+  color: #a00;
+  font-weight: bold;
+  margin-bottom: 2em; }
+
+.site .title a {
+  text-decoration: none;
+  color: #a00; }
+
+.site .title a.extra {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 1em; }
+
+ul#posts {
+  list-style-type: none;
+  margin-bottom: 2em; }
+
+ul#posts li {
+  line-height: 1.75em; }
+
+ul#posts span {
+  color: #aaa;
+  font-size: 80%; }
+
+#post p {
+  margin: 1em 1em 1em 1em; }
+
+.site #footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  width: 100%;
+  overflow: hidden; }
+
+.site .footer .contact {
+  float: left;
+  color: #666;
+  margin-right: 3em; }
+
+.site .footer .contact p {
+  margin: 1em 0; }
+
+.site .footer .rss {
+  font-size: 32px; }
+
+.site .footer .rss a.twitter {
+  color: #1DA1F2; }
+
+.site .footer .rss a.facebook {
+  color: #3B5999; }
+
+.site .footer .rss a.linkedin {
+  color: #0077B5; }
+
+.site .footer .rss a.github {
+  color: #767676; }
+
+.site .footer .rss a.resume {
+  color: #666; }
+
+.site .footer .rss a.rss {
+  color: #F47A22; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h2 {
+  margin-bottom: 1em; }
+
+img {
+  width: 100%; }
+
+p {
+  margin: 1em 0; }
+
+.site .toTop {
+  width: 32px;
+  height: 32px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 2.5em;
+  position: relative;
+  top: 50%;
+  right: -110%; }
+
+@media screen and (max-width: 414px) {
+  .site {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

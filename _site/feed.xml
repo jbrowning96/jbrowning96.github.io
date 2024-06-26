@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben Sanders</title>
+    <description>Ben Sanders is an all-around Geek and loves to write about the latest technology/gaming news. If you want a personal take on technology and gaming news come have a read. 
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Nov 2018 10:50:15 -0500</pubDate>
+    <lastBuildDate>Wed, 28 Nov 2018 10:50:15 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>.Life Update</title>
+        <description>&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc-2018-evento-san-jose.png&quot;&gt;
+  &lt;p class=&quot;introduction&quot;&gt;
+    
+  &lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;
+
+
+</description>
+        <pubDate>Mon, 05 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/life-update-november-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/life-update-november-2018/</guid>
+        
+        <category>thebensanders,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>life,</category>
+        
+        <category>update,</category>
+        
+        <category>privacy</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Apple WWDC 2018</title>
+        <description>&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc-2018-evento-san-jose.png&quot;&gt;
+  &lt;p class=&quot;introduction&quot;&gt;
+    It's that time again for another Apple WWDC and I'm going to attempt to live blog the event here.
+    You will need to refresh the page though since I'm using Jekyll but hey it's something to try. Please
+    bear with me here.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Giving some Windows XP vibes with that wallpaper but a dark mode is always nice. 
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-macos-dark-mode.jpg&quot;&gt;
+  &lt;p&gt;
+    Finally being able to open links on Apple Watch, for a quick preview at least.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-links-watchos.png&quot;&gt;
+  &lt;p&gt;
+    That's a cool feature. I can see that being nice for some quick communication.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-walkie-talkie.png&quot;&gt;
+  &lt;p&gt;
+    Automatic workouts will be nice so that I can know what it counts as working out.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-automatic-work-watchos.png&quot;&gt;
+  &lt;p&gt;
+    Some new stuff for those who are competitive in WatchOS 5. That's a nice feature to keep everyone active.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-group-facetime.png&quot;&gt;
+  &lt;p&gt;
+    Group Facetime up to 32 people! That's is so cool and a nice addition to messages.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-ipad-update.png&quot;&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-ar.png&quot;&gt;
+  &lt;p&gt;
+    That's pretty cool with their focus on AR. Can't wait to get a chance to play with it myself.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-siri-refinements.jpg&quot;&gt;
+  &lt;p&gt;
+    That's interesting some siri shortcuts in search. That will be very helpful!
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-dnd-update.png&quot;&gt;
+  &lt;p&gt;
+    Nice that they are giving some love to DND. Which is a must needed thing.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-group-notifications.png&quot;&gt;
+  &lt;p&gt;
+    That's a nice feature. Group notifications!
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/wwdc/apple-wwdc-memoji.jpg&quot;&gt;
+  &lt;p&gt;
+    That's cool and will probably be the killer of bitmoji. Maybe the last nail in the coffin
+    for Snapchat?
+  &lt;/p&gt;
+&lt;/section&gt;
+
+
+</description>
+        <pubDate>Mon, 04 Jun 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/apple-wwdc-june-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/apple-wwdc-june-2018/</guid>
+        
+        <category>thebensanders,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>apple,</category>
+        
+        <category>wwdc,</category>
+        
+        <category>june,</category>
+        
+        <category>privacy</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Share Only What You Want Out There</title>
+        <description>&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/AdobeStock_Privacy_Small.jpg&quot;&gt;
+  &lt;p&gt;
+    Since I graduated back in 2011 I suppose I was one of the last group of high-schoolers
+    to know what life was like before the proliferation of social media. One thing you
+    have to keep in mind when sharing on the internet, let alone social media, is that
+    once you put it out there. You have to assume it will always be there even if you 'delete' it.
+  &lt;/p&gt;
+  &lt;p&gt;
+    For example, at one point when I was going to school for web design and development,
+    I was looking into building a social network. Granted it was mostly to practice coding
+    but I was still interested in building one. I did some research on how other social
+    media websites handled things like 'deleting' images and posts. One thing I found out
+    was that it doesn't actually 'delete' it just sort of hides it.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I'm sure that it eventually does get deleted and is gone but by the time you
+    hit the delete button. You never know who has downloaded it and possibly shared
+    it somewhere else. Which is the point of this article is to say that if you want to
+    share something think it through first.
+  &lt;/p&gt;
+  &lt;p&gt;
+    To tie up this article with a nice bow, I will say that the whole Facebook/Cambridge
+    Analytica thing made me want to write this article. From a programmer/web developer
+    perspective, I see the issue being caused both by Facebook and the users being careless.
+    The users that got their information leaked because they used Facebook to login to random
+    apps for quizzes. Facebook for not doing more to protect that data.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Moral of the story is just be more careful what you share online. If you do
+    share more personal information online don't use Facebook to login to those
+    personality quizzes.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Thanks for reading and stay safe out there. :)
+  &lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 22 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/share-only-what-you-want-out-there/</link>
+        <guid isPermaLink="true">http://localhost:4000/share-only-what-you-want-out-there/</guid>
+        
+        <category>thebensanders,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>facebook,</category>
+        
+        <category>Cambridge Analytica,</category>
+        
+        <category>twitter,</category>
+        
+        <category>privacy</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Let's Talk About Sub4Sub</title>
+        <description>&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/sub4sub.jpg&quot;&gt;
+  &lt;p class=&quot;introduction&quot;&gt;
+    Since I started uploading more frequently to YouTube I have come across more
+    people asking for sub4sub. The main problem with sub4sub is that, yes it gets
+    you tons of subs, but you don't get actual views and watch time. You also end
+    up with a bunch of subscriptions that you will probably never watch yourself.
+  &lt;/p&gt;
+  &lt;p&gt;
+    When it comes to getting people to subscribe to your channel you should want
+    them to subscribe because you offer some kind of value to them. That value can
+    come in the form of entertainment, education, or whatever else you might offer.
+    That's why you should be doing a call-to-action at the end of your videos inviting
+    viewers to subscribe, like, and/or comment. Doing that kind of reminds people that
+    they can do all those things on YouTube.
+  &lt;/p&gt;
+  &lt;p&gt;
+    It may seem to take a lot longer to grow a channel without sub4sub but if you
+    don't take part in that sub4sub culture. You will be able to find your niche on
+    YouTube that will allow you to grow your channel. That just simply doesn't happen
+    with sub4sub because it just gets a bunch of people subscribed that will probably
+    only last at most a month.
+  &lt;/p&gt;
+  &lt;p&gt;
+    More recently I posted a link to my channel in a blogs comment section which
+    got about 8 subs from. The problem was people commented saying &quot;subbed, now sub back&quot;.
+    Well as you can imagine once I didn't sub back all 8 unsubbed. That shows that they
+    weren't actually interested in my content they just wanted to inflate their own sub count.
+  &lt;/p&gt;
+  &lt;img class=&quot;post-featured-image&quot; src=&quot;/images/sub4sub-graph.png&quot;&gt;
+  &lt;p&gt;
+    All-in-all sub4sub is a pretty terrible way to grow a channel and I'll leave
+    you with a video on the topic. That being said if you want to watch my content
+    and subscribe to me because of that you can find my channel here. &lt;a target=&quot;_blank&quot; href=&quot;https://youtube.com/thebensanders/&quot;&gt;https://youtube.com/thebensanders/&lt;/a&gt;.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Thanks for reading, have a great day! :)
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;section class=&quot;videoContent&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;525&quot; src=&quot;https://www.youtube.com/embed/VMbngWvulAg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 14 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/about-sub-4-sub/</link>
+        <guid isPermaLink="true">http://localhost:4000/about-sub-4-sub/</guid>
+        
+        <category>thebensanders,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>sub4sub,</category>
+        
+        <category>sub,</category>
+        
+        <category>YouTube,</category>
+        
+        <category>Roberto Blake</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Sims 4 Laundry Day</title>
+        <description>&lt;section class=&quot;videoContent&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;525&quot; src=&quot;https://www.youtube.com/embed/j8yTBEBpZts&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;p class=&quot;introduction&quot;&gt;
+    So, it's finally here or at least tomorrow it will finally be here. The Sims
+    4 Laundry Day stuff pack. Perhaps the first stuff pack I can remember I have
+    been excited about. I think the main reason I'm excited about this stuff pack
+    is that it is the first time the community has voted on what the next stuff
+    pack will be. Maybe if this pack ends up being a success it will lead them to
+    work with the community in future TS4 content.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I'm a simmer, that's one thing that is for sure. I've been playing The Sims
+    franchise since my dad bought the first game for my mom. I can remember
+    spending hours as a kid playing the game. It's one of the main game franchises
+    that shaped my childhood. Perhaps I'll do a video or a blog post on games I
+    played as a child in the future.
+  &lt;/p&gt;
+  &lt;p&gt;
+    So, what are my thoughts on the actual stuff pack getting ready to come out?
+  &lt;/p&gt;
+  &lt;p&gt;
+    I love it! The reason being that back when laundry was first introduced back
+    in The Sims 3: Ambitions I loved watching my Sims do laundry. There's just
+    something about laundry, and seasons, that adds more realism to the game.
+    It makes it easier for me to put myself in that world.
+  &lt;/p&gt;
+  &lt;p&gt;
+    There's also the trailer they made for the stuff pack which I can tell The
+    Sims team was having fun. Although considering the topic of the stuff pack.
+    I'm surprised they were able to make the trailer as exciting as it is.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I'm looking forward to putting another 300 hours into the game or, you know,
+    something like that. I'll emerge on the other side not knowing what's going
+    on in the real world. Perhaps even mainly speaking in Similish.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Let me know in the comments if you are looking forward to The Sims 4: Laundry
+    Day Stuff! I look forward to your thoughts. You can follow me on &lt;a href=&quot;https://twitter.com/thebensanders&quot; target=&quot;_blank&quot;&gt;twitter&lt;/a&gt; and
+    &lt;a href=&quot;https://youtube.com/thebensanders&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; as well as subscribe to my blog. Thanks for reading and have a great
+    day. Happy Siming.
+  &lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Mon, 15 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/the-sims-4-laundry-day/</link>
+        <guid isPermaLink="true">http://localhost:4000/the-sims-4-laundry-day/</guid>
+        
+        <category>thebensanders,</category>
+        
+        <category>2018</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>the sims 4,</category>
+        
+        <category>TS4,</category>
+        
+        <category>Laundry Day,</category>
+        
+        <category>TS4 Laundry Day,</category>
+        
+        <category>The Sims 4 Laundry Day,</category>
+        
+        <category>Electronic Arts</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Read More.</title>
+        <description>&lt;section class=&quot;photoset&quot;&gt;
+  &lt;img src=&quot;/images/read-more-small.jpg&quot; class=&quot;post-featured-image&quot; alt=&quot;Google Drive Logo&quot;&gt;
+&lt;/section&gt;
+&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;p class=&quot;introduction&quot;&gt;
+    I can remember the very first book I read all the way through. It was &quot;Harry
+    Potter and the Sorcerer's Stone&quot;.  I remember the day I decided to start
+    reading the Harry Potter Series. It was right after I had seen the first film.
+    I guess I wanted to be immersed in the Harry Potter universe even more.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Ever since those days though I haven't really read a whole lot other than
+    the occasional blog posts. Which, I suppose, is still reading and you can
+    still get the same benefits as reading a book. I just haven't taken the time
+    to just sit back, relax, and take a journey with a nice book in a while.
+  &lt;/p&gt;
+  &lt;p&gt;
+    You see since the start of 2018 I have been thinking about reading more.
+    Well, not just reading more but writing more as well. I am aware that I wrote
+    several posts in 2017. I just want to try to write much longer, more meaningful
+    blog posts. Sort of like short stories but on the web. Carefully crafting a
+    story that would take the reader on an adventure with each and every word.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I want to try to take my writing to the next level by taking the reader on a
+    journey in their own mind. Sort of the way a good book does when you sit down
+    to read it. Like how you start imagining what that world would be like to
+    live in.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I'm going to stray a little here to say that I have been trying to find my
+    niche on YouTube. I had recently found the BookTube community which seems to
+    go with what I want to do in terms of reading and writing more. Hell, I might
+    even actually write a novel one day. Wouldn't that be great?
+  &lt;/p&gt;
+  &lt;p&gt;
+    So, where is this all going, I hear you ask yourself.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Well, here in 2018 I would honestly like to read more. Starting with Emma
+    Blackery's &quot;Feel Good 101&quot;. I don't like setting a certain number but I'm
+    going to say I'd like to read 20 books in 2018. Mostly books I already own
+    which include: Egghead and The Fault in Our Stars.
+  &lt;/p&gt;
+  &lt;h2&gt;Why Read Though?&lt;/h2&gt;
+  &lt;p&gt;
+    Some people might say something about how you can get the same relaxation
+    from watching TV or a YouTube video. The problem with that thinking though
+    is that it still requires you to stare at a screen. I love the idea that
+    reading allows you to put away your computer and phone for a small, to large,
+    amount of time.
+  &lt;/p&gt;
+  &lt;p&gt;
+    While you can read on, say an iPad, you've still got the notifications
+    coming through interrupting your reading. I want to read because it's a way
+    to fully escape the world into a whole different one. Even reading non-fiction
+    books can help you escape. It can conjure up what it must have been like to live
+    in the times that book is talking about.
+  &lt;/p&gt;
+  &lt;p&gt;
+    I like the way that Paul Stamatiou worded it on his
+    &lt;a href=&quot;https://paulstamatiou.com/reading-more-kindle-oasis/&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt;.
+  &lt;/p&gt;
+  &lt;p&gt;
+    &quot;Reading forces you to go one step further and not even let your mind wander
+    a bit. If it does, you're punished by having to read the paragraph or page
+    over again to understand what’s happening&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+    That's very true I can attest to have been reading a book and my mind started
+    wondering about something else. Then next thing I knew I was lost and didn't
+    know where I had left off.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Reading isn't just about relaxing though it also allows you to see things
+    from a different perspective. If you are set in your beliefs on one thing
+    reading can give you a new perspective on those beliefs. You may or may not
+    change what you personally believe but at least you have a better understanding
+    of someone else's point-of-view.
+  &lt;/p&gt;
+  &lt;h2&gt;What to read?&lt;/h2&gt;
+  &lt;p&gt;
+    As I've mentioned above I'm starting out with Emma Blackery's book since
+    that is the most recent book I bought. I do have several books in mind that
+    I have been meaning to read myself. One book is &quot;Steve Jobs&quot; by Walter Isaacson.
+    I will also be keeping an eye on Bill Gate's, &lt;a href=&quot;https://www.gatesnotes.com/&quot;
+    target=&quot;_blank&quot;&gt;Gatesnotes&lt;/a&gt;, blog for ideas on
+    books to read.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Thankfully, as mentioned previously, I found the
+    &lt;a target=&quot;_blank&quot; href=&quot;https://www.youtube.com/results?search_query=booktube&quot;&gt;BookTube community&lt;/a&gt; which
+    led me to make a &lt;a target=&quot;_blank&quot; href=&quot;https://www.goodreads.com/user/show/76373017-ben-sanders&quot;&gt;Goodreads account&lt;/a&gt;.
+    So, that's another place I'm sure I'll find great books to read. Really,
+    there should be no excuse for me not to read 20 books in 2018.
+  &lt;/p&gt;
+  &lt;h2&gt;Conclusion&lt;/h2&gt;
+  &lt;p&gt;
+    My final thoughts are that I'm hoping I can actually read 20, or more, books
+    in 2018. I'm sure it will lead to me having a greater knowledge of the world
+    and ultimately help improve my writing. Who knows? Perhaps by November of this
+    year, I will actually participate in NaNoWriMo and have a published novel. :)
+  &lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Fri, 12 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/read-more/</link>
+        <guid isPermaLink="true">http://localhost:4000/read-more/</guid>
+        
+        <category>read more,</category>
+        
+        <category>thebensanders,</category>
+        
+        <category>Harry Potter,</category>
+        
+        <category>Emma Blackery,</category>
+        
+        <category>2018</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>2017</category>
+        
+        <category>reading,</category>
+        
+        <category>Bo Burnham,</category>
+        
+        <category>Egghead,</category>
+        
+        <category>Paul Stamatiou,</category>
+        
+        <category>BookTube,</category>
+        
+        <category>Book Tube,</category>
+        
+        <category>reading plus answers level h,</category>
+        
+        <category>why reading is important,</category>
+        
+        <category>books to read,</category>
+        
+        <category>books to read online</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Webms Are Cool</title>
+        <description>&lt;!-- &lt;section class=&quot;photoset&quot;&gt;
+  &lt;img src=&quot;/images/NaNoWriMo_small.jpg&quot; class=&quot;post-featured-image&quot; alt=&quot;Google Drive Logo&quot;&gt;
+&lt;/section&gt; --&gt;
+&lt;section class=&quot;storyContent&quot;&gt;
+  &lt;video autoplay loop=&quot;true&quot; src=&quot;/Videos/Jazza Flips Benjamin off.webm&quot; width=&quot;100%'&gt;&lt;/video&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Fri, 01 Dec 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/webms-are-cool/</link>
+        <guid isPermaLink="true">http://localhost:4000/webms-are-cool/</guid>
+        
+        <category>webm,</category>
+        
+        <category>thebensanders,</category>
+        
+        <category>drawwithjazza,</category>
+        
+        <category>jazza,</category>
+        
+        <category>vs,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>2017</category>
+        
+        <category>gif</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>National Novel Writing Month</title>
+        <description>&lt;section class=&quot;photoset&quot;&gt;
+  &lt;img src=&quot;/images/NaNoWriMo_small.jpg&quot; class=&quot;post-featured-image&quot; alt=&quot;Google Drive Logo&quot;&gt;
+&lt;/section&gt;
+&lt;section class=&quot;storyContent&quot;&gt;
+&lt;p&gt;
+  I was listening to Not Too Deep with Grace Helbig and it was mentioned that
+  November is National Novel Writing Month. My first thought was that I should blog about it. (lol)
+&lt;/p&gt;
+&lt;p&gt;
+  Seriously though I have thought about writing a novel in the past.
+  As I'm sure almost every single person in the world has thought about doing.
+  I think I'll stick to writing more on my blog to help work on my writing and storytelling skills.
+&lt;/p&gt;
+&lt;p&gt;
+  I would imagine that difference between writing a novel and a blog post would
+  be that you can't just have short paragraphs. I don't know, maybe you can.
+  In writing, there are certain rules you should follow but I imagine if you can
+  tell a compelling story. You can write however you want.
+&lt;/p&gt;
+&lt;p&gt;
+  As with any creative skill, however, it just takes practice to get better at.
+  You just have to pick a skill you feel you would enjoy and just do it.
+  You will suck at first but eventually, if you keep at it you will find your own style.
+&lt;/p&gt;
+&lt;p&gt;
+The worst thing for any writer is a blank page and there are plenty of remedies
+to cure that problem. One of the main ones that many English college professors
+will have you do is just write. Write about things and don't worry about grammar
+or spelling. You can always edit it for grammar letter.
+&lt;/p&gt;
+&lt;p&gt;
+Thanks as always for taking the time to read my blog posts. I'm going to try to
+post more during November and onwards. I just never really had much that I felt
+I could add to the blogosphere. Hopefully, this post does add something and I
+would love to hear from you, dear reader, in the comments below. :)
+&lt;/p&gt;
+&lt;p&gt;
+PS: After I copy and pasted these &quot;paragraphs&quot; into Atom the article seemed a lot shorter then it did in Grammarly.
+&lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 09 Nov 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/national-novel-writing-month/</link>
+        <guid isPermaLink="true">http://localhost:4000/national-novel-writing-month/</guid>
+        
+        <category>national novel writing month,</category>
+        
+        <category>thebensanders,</category>
+        
+        <category>writing,</category>
+        
+        <category>november,</category>
+        
+        <category>month,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>2017</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>5 Reasons To Upload Your Resume To Google Drive</title>
+        <description>&lt;section class=&quot;storyContent&quot;&gt;
+&lt;p&gt;
+  So, you're out of school or are almost out and you are looking for a job?
+  You've got your resume in hand or I should say in PDF form on your computer.
+  You could upload it every time you send an email to a potential job or, and I
+  suppose this only works if you use Gmail, you could upload it to Google Drive.
+
+&lt;/p&gt;
+&lt;p&gt;
+  Recently I had applied for a job and I went to upload my resume to send to
+  them and I had this thought about importing it from Google Drive. For some
+  reason, all the times I had sent applications in I hadn't thought about doing
+  this. I guess it's just me being stuck in the past so to speak. After I had
+  sent the email I did think about the ease of which it would be to update my
+  resume that company has now. If I update that one then it would just update
+  for them since I basically sent them a link and allowed them to view it.
+&lt;/p&gt;
+&lt;p&gt;
+  So, my 5 reasons for uploading your resume to Google Drive and I suppose, as
+  mentioned, this only applies if you use Gmail.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;ul class=&quot;in-post-list&quot;&gt;
+    &lt;li&gt;1. Ease of Editability&lt;/li&gt;
+    &lt;li&gt;2. Literally, only one copy is needed&lt;/li&gt;
+    &lt;li&gt;3. &quot;The Cloud&quot; allows for access on any device&lt;/li&gt;
+    &lt;li&gt;4. Importing is easy from inside Gmail&lt;/li&gt;
+    &lt;li&gt;5. Super convenient&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+  Ease of Editability is as I mentioned above just the fact that you can edit the
+  one file and have it update for all possible jobs. So, if you found a mistake
+  when you sent the email you can quickly update it and have it reflected
+  immediately.
+&lt;/p&gt;
+&lt;p&gt;
+  What I mean by &quot;literally, only one copy is needed&quot; is just as it sounds.
+  You only need one copy since it's online in Google Drive you don't have to
+  worry about resaving a Word Document as a PDF anymore. Just send the Google
+  Drive Document, or whatever they call it.
+
+&lt;/p&gt;
+&lt;p&gt;
+  &quot;The Cloud&quot;, which is a word I sort of hate since it simplifies the web a
+  little too much but that's the buzz word that's been chosen. Either way
+  &quot;The Cloud&quot; allows for you to view your resume, or any other document, on any
+  device that has the app. So, if you need to show your resume to someone in a
+  pinch just get your phone out and show them. You can even edit it from your
+  phone, tablet, what have you.
+
+&lt;/p&gt;
+&lt;p&gt;
+  Importing it from inside of Gmail is easy by just hitting the Drive icon and
+  selecting your file. I would say it couldn't be any easier.
+  I'll just include this last one in this paragraph. The last one being that
+  it's just super convenient. Super convenient for really all the above points
+  I mentioned.
+
+&lt;/p&gt;
+&lt;p&gt;
+  Thanks for taking the time to read this post and be sure to share it if you
+  want to and comment below with your thoughts. :)
+
+&lt;/p&gt;
+&lt;p&gt;
+  Until Next Time,
+  - Ben Sanders
+&lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Mon, 17 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/5-reasons-to-upload-your-resume-to-google-drive/</link>
+        <guid isPermaLink="true">http://localhost:4000/5-reasons-to-upload-your-resume-to-google-drive/</guid>
+        
+        <category>5 reasons to upload your resume to google drive,</category>
+        
+        <category>5 reasons,</category>
+        
+        <category>resume,</category>
+        
+        <category>google,</category>
+        
+        <category>drive,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>2017</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Using Font Awesome In 2017</title>
+        <description>&lt;img class=&quot;post-featured-image&quot; src=&quot;/images/font-awesome-post-image.png&quot;&gt;
+&lt;section class=&quot;storyContent&quot;&gt;
+&lt;p&gt;
+  It has come to my attention that I should move into the new age so to speak of
+  web development. I managed to teach myself SASS and get better with GIT, ha get,
+  all jokes aside I need to keep my skills up. So, over the next few days, weeks
+  and even months I'll be implementing &lt;a target=&quot;_blank&quot; href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt; into my site.
+&lt;/p&gt;
+&lt;p&gt;
+  I've always had trouble with things like the Hamburger menu, I guess because I
+  always tried using an image for it. You know instead of using a CSS Icon Set.
+  I'll also be trying to blog the experience more so I can get some actual
+  content on this site.
+
+&lt;/p&gt;
+&lt;p&gt;
+  I've already started filling out my &lt;a target=&quot;_blank&quot; href=&quot;https://bensanders.me/portfolio&quot;&gt;portfolio&lt;/a&gt;.
+  Although it's mostly just
+  designs that I made up in Photoshop. I've also popped open Illustrator to make
+  some logos but I don't feel they are that great to share yet. I mostly just
+  keep trying to slog away to keep busy on something creative.
+
+&lt;/p&gt;
+&lt;p&gt;
+  I do still run my &lt;i class=&quot;fa fa-youtube-play&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://youtube.com/thebensanders&quot;&gt;YouTube&lt;/a&gt;
+  channel as well where I upload vlogs and short
+  Overwatch clips. I have already uploaded more videos this year than all of
+  last year put together and depending on if the Dragon Con trip works out I'll
+  have that on my channel. Along with plenty of photos from the Con on this site.
+
+&lt;/p&gt;
+&lt;p&gt;
+  Whatever happens, the next 5 and a half months thank you for taking the time
+  to read this little update post. That all it seems I ever do on this site
+  anymore. (lol)
+
+&lt;/p&gt;
+&lt;p&gt;
+  Until Next Time, peace!&lt;br /&gt;
+  - Ben Sanders &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  P.S. If you enjoyed this post don't forget to share it on all the socials
+  and comment below! I looke forward to conversing with you all in the comments.
+&lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Fri, 14 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/using-font-awesome-in-2017/</link>
+        <guid isPermaLink="true">http://localhost:4000/using-font-awesome-in-2017/</guid>
+        
+        <category>font awesome,</category>
+        
+        <category>Ben Sanders,</category>
+        
+        <category>2017</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
