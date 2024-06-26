@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>How to Add Netlify CMS to A Jekyll Site - SparrowX Documentation</title>
+
+
+
+
+<meta name="description" content="Learn how to add Netlify CMS to a Jekyll site. This tutorial is based on SparrowX theme.">
+
+
+
+<meta name="author" content="Mighil">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Justin Browning">
+<meta property="og:title" content="How to Add Netlify CMS to A Jekyll Site - SparrowX Documentation">
+
+
+  <link rel="canonical" href="http://localhost:4000/netlify-cms-jekyll-setup/">
+  <meta property="og:url" content="http://localhost:4000/netlify-cms-jekyll-setup/">
+
+
+
+  <meta property="og:description" content="Learn how to add Netlify CMS to a Jekyll site. This tutorial is based on SparrowX theme.">
+
+
+
+
+  <meta property="og:updated_time" content="">
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/mighil.png">
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2018-10-29T00:00:00+00:00">
+
+
+
+
+
+
+
+    <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Justin Browning Feed">
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+    </script>
+
+    <!-- For all browsers -->
+    <!--  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Heebo:100,300,400,500,700,800,900" rel="stylesheet">  -->
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC91BMVEUAAACjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWT0+HVAAAA/HRSTlMACSE6UmqDm6y0vMTM1Nzk7PT8CjFap8DY8BFj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">
+    <meta http-equiv="cleartype" content="on">
+    
+  
+
+
+
+
+
+
+  </head>
+
+  <body class="layout--post">
+  <div id="mastheadbackground"></div>
+    
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">SparrowX Setup for Netlify CMS</li>
+      
+    
+  </ol>
+</nav> 
+<div id="main" role="main">
+  <div class="topnav">
+  
+  <div class="topnav__avatar">
+      
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC91BMVEUAAACjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWjMCWT0+HVAAAA/HRSTlMACSE6UmqDm6y0vMTM1Nzk7PT8CjFap8DY8BFj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" alt="">
+      
+    </div> 
+  
+
+  <div class="topnav__content">
+    <h3 class="site__name"><a href="/" rel="permalink">Justin Browning</a></h3>
+    
+      <p class="site__bio">
+        Mathematics Graduate Student @ the University of North Texas
+      </p>
+    
+    
+    <nav>
+      <ul id="navigation" class="links slimmenu">
+        
+          
+          <li class="menu-item">
+            <a href="http://localhost:4000/documentation">Documentation</a>
+            
+          </li>
+        
+          
+          <li class="menu-item">
+            <a href="http://localhost:4000/netlify-cms-jekyll-setup">Netlify CMS</a>
+            
+          </li>
+        
+          
+          <li class="menu-item">
+            <a href="http://localhost:4000/blog">Blog</a>
+            
+          </li>
+        
+          
+          <li class="menu-item">
+            <a href="http://localhost:4000/">Submenu</a>
+            
+              <ul>
+                
+                  
+                  <li><a href="http://localhost:4000/sitemap.xml">Sitemap</a></li>
+                
+                  
+                  <li><a href="http://localhost:4000/feed.xml">RSS</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  <article class="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SparrowX Setup for Netlify CMS">
+    <meta itemprop="description" content="Getting Started">
+    <meta itemprop="datePublished" content="October 29, 2018">
+    
+
+    <div class="post__inner-wrap">
+      <header>
+        <h1 class="post__title" itemprop="headline">SparrowX Setup for Netlify CMS
+</h1>
+        
+        
+        <p class="post__meta"> <time datetime="2018-10-29T00:00:00+00:00">October 29, 2018 </time></p>
+        
+        
+        
+        
+        <span>[
+  
+    
+    <a href="/tag/documentation"><code class="highligher-rouge"><nobr>documentation</nobr></code>&nbsp;</a>
+  
+]</span>
+      </header>
+      <section class="post__content" itemprop="text">
+        <h2 id="getting-started">Getting Started</h2>
+
+<ul>
+  <li>Create a Netlify account if you don’t have one.</li>
+  <li><a href="https://github.com/migftw/sparrowx/">Fork SparrowX</a>. (No need enable GitHub pages since we’ll be using Netlify CMS to fetch, build the repo and point the domain.)</li>
+  <li>Visit https://app.netlify.com/ and click <strong>“New site from Git”</strong></li>
+</ul>
+
+<h2 id="netlify-deploy-settings-for-sparrowx">Netlify deploy settings for SparrowX</h2>
+
+<ul>
+  <li>Select <code class="language-plaintext highlighter-rouge">master branch</code> to deploy. Use <code class="language-plaintext highlighter-rouge">jekyll build</code> build command and set the Publish directory as <code class="language-plaintext highlighter-rouge">_site</code>.</li>
+</ul>
+
+<p><img src="/images/netlify-jekyll-deploy-settings.png" alt="Netlify deploy settings for Jekyll" /></p>
+
+<h2 id="admin-directory-explained">/admin/ directory explained</h2>
+
+<p>The <strong>/admin/</strong> directory contains the <code class="language-plaintext highlighter-rouge">index.html</code> and <code class="language-plaintext highlighter-rouge">config.yml</code> for Netlify CMS.</p>
+
+<p>Here’s how the <code class="language-plaintext highlighter-rouge">config.yml</code> looks for now.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "images" # Media files will be stored in the repo under images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
+
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "_posts"
+    create: true
+    slug: "---"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Title", name: "seotitle", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "OG Image", name: "headerimage", widget: "string", required: false}
+      - {label: "Updated Date", name: "updated", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+
+  - name: "page"
+    label: "Page"
+    folder: "_pages"
+    create: true
+    slug: ".md"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Title", name: "seotitle", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+</code></pre></div></div>
+
+<p>You may edit this according to your preference.</p>
+
+<h2 id="authentication">Authentication</h2>
+
+<p>Credit: <a href="https://www.chrisanthropic.com/blog/2018/adding-netlifycms-to-jekyll-secure-with-netlify-identity-git-gateway/">This blog post</a></p>
+
+<p>You’ve to perform few tweaks within your Netlify account to connect Netlify and GitHub.</p>
+
+<p>Netlify offers an Identity service that allows you to manage authenticated users with only an email or optional SSO with GitHub, Google, GitLab, and BitBucket.</p>
+
+<h3 id="enable-netlify-identity">Enable Netlify Identity</h3>
+
+<ul>
+  <li>Log in to Netlify, Domain Settings » Identity » Enable Identity Service</li>
+  <li>Leave registration open for now</li>
+  <li>Tick the box of any External Providers you want to support</li>
+  <li>Leave all the other defaults as-is for now</li>
+</ul>
+
+<h3 id="enable-git-gateway">Enable Git Gateway</h3>
+
+<p>This step obviously requires a GitHub account.</p>
+
+<ul>
+  <li>Scroll to the bottom of the page</li>
+  <li>Click on “Enable Git Gateway”</li>
+  <li>Log in to your GitHub account when prompted</li>
+</ul>
+
+<h3 id="add-the-netlify-identity-widget">Add The Netlify Identity Widget</h3>
+
+<p>Now we need to add a small “Identity Widget” script to the admin page and main page of the site. Rather than modify my Jekyll template I’m going to hightlight another cool feature Netlify provides - Script Injection. In short we can tell Netlify to inject JavaScript snippets into the &lt;/head&gt; or before the end of the &lt;/body&gt; tags on every page of the site.</p>
+
+<p><strong>Log in to Netlify, Site Settings » Build &amp; Deploy » Post Processing » Snippet Injection</strong></p>
+
+<ul>
+  <li>Insert before: select &lt;/head&gt;</li>
+  <li>Script name: Netlify Identity Widget</li>
+  <li>HTML:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt;&lt;/script&gt;
+</code></pre></div></div>
+
+<h3 id="add-the-netlify-identity-widget-redirect">Add The Netlify Identity Widget Redirect</h3>
+
+<p>Now that we have code to handle the login, let’s make sure we get redirected to the amin page after logging in.</p>
+
+<p><strong>Log in to Netlify, Site Settings » Build &amp; Deploy » Post Processing » Snippet Injection</strong></p>
+
+<ul>
+  <li>Insert before: select &lt;/head&gt;</li>
+  <li>Script name: Netlify Identity Redirect</li>
+  <li>HTML:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script&gt;
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user =&gt; {
+      if (!user) {
+        window.netlifyIdentity.on("login", () =&gt; {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+&lt;/script&gt; 
+</code></pre></div></div>
+
+<p>Now Netlify will inject that code into every page on your site.</p>
+
+<h3 id="test-it-out">Test it out</h3>
+
+<p>Push your changes and watch Netlify rebuild your site with a new admin dashboard!</p>
+
+<h3 id="approve-account-creation">Approve Account Creation</h3>
+
+<p>You should have recieved an email by now from Netlify (at whatever email you use for your Netlify account) that you were added as a user to the site and that you need to click the link to confirm. This is the Netlify Identity service at work! It automatically invites you since you’re the Netlify admin.</p>
+
+<ul>
+  <li>Open the Netlify email and click “Accept Invitation”</li>
+  <li>Create a password when prompted</li>
+  <li>Turn off open registration! (Now that we’ve successfully registered there’s no need to keep it open)</li>
+</ul>
+
+<p><strong>Log in to Netlify, Domain Settings » Identity » Registration Preferences » Invite Only</strong></p>
+
+<h3 id="login-via-email">Login Via Email</h3>
+
+<p>Visit <code class="language-plaintext highlighter-rouge">YOURDOMAIN/admin</code> and login via email (username/password) first to test that it’s working. Then test via Google/GitHub/etc.</p>
+
+<h3 id="the-netlify-cms-dashboard">The Netlify CMS Dashboard</h3>
+
+<p>The dashboard looks the way to configured on <code class="language-plaintext highlighter-rouge">config.yml</code> inside <code class="language-plaintext highlighter-rouge">/admin</code>.</p>
+
+<p>Here’s the basics:</p>
+
+<p><img src="/images/netlify-cms-jekyll-theme.png" alt="Netlify CMS dashboard" /></p>
+
+<h3 id="how-tags-work">How tags work</h3>
+
+<p>You should create specific .md files within <code class="language-plaintext highlighter-rouge">/tag/</code> before using the variable.</p>
+
+        
+        <section class="page__share">
+<ul class="rrssb-buttons clearfix">
+    <li class="rrssb-facebook">
+      <!--  Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
+            https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ -->
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/netlify-cms-jekyll-setup/" class="popup">
+        <span class="rrssb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z"/></svg>
+        </span>
+        <span class="rrssb-text">facebook</span>
+      </a>
+    </li>
+
+    <li class="rrssb-twitter">
+      <!-- Replace href with your Meta and URL information  -->
+      <a href="https://twitter.com/intent/tweet?text=SparrowX Setup for Netlify CMS http://localhost:4000/netlify-cms-jekyll-setup/"
+      class="popup">
+        <span class="rrssb-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z"/></svg></span>
+        <span class="rrssb-text">twitter</span>
+      </a>
+    </li>
+
+    <li class="rrssb-linkedin">
+      <!-- Replace href with your meta and URL information -->
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/netlify-cms-jekyll-setup/" class="popup">
+        <span class="rrssb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"/></svg>
+        </span>
+        <span class="rrssb-text">linkedin</span>
+      </a>
+    </li>
+
+    <li class="rrssb-googleplus">
+      <!-- Replace href with your meta and URL information.  -->
+      <a href="https://plus.google.com/share?url=http://localhost:4000/netlify-cms-jekyll-setup/" class="popup">
+        <span class="rrssb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 8.29h-1.95v2.6h-2.6v1.82h2.6v2.6H21v-2.6h2.6v-1.885H21V8.29zM7.614 10.306v2.925h3.9c-.26 1.69-1.755 2.925-3.9 2.925-2.34 0-4.29-2.016-4.29-4.354s1.885-4.353 4.29-4.353c1.104 0 2.014.326 2.794 1.105l2.08-2.08c-1.3-1.17-2.924-1.883-4.874-1.883C3.65 4.586.4 7.835.4 11.8s3.25 7.212 7.214 7.212c4.224 0 6.953-2.988 6.953-7.082 0-.52-.065-1.104-.13-1.624H7.614z"/></svg>            </span>
+        <span class="rrssb-text">google+</span>
+      </a>
+    </li>
+</ul>
+</section>
+
+      
+      </section>
+
+    </div>
+
+    
+      <div class="page__comments">
+
+  
+</div>
+
+    
+
+
+  </article>
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <div class="page__footer-copyright">&copy; 2024 Justin Browning. <a href="https://twitter.com/migftw" rel="nofollow">@migftw</a> <span class="page__footer-heart"><i class="fa fa-twitter" aria-hidden="true"></i></span>. <a href="https://github.com/migftw/sparrowx">SparrowX</a> built on top of <a href="https://github.com/lingxz/sparrow">@sparrow</a>.</div>
+      </footer>
+    </div>
+     <script src="http://localhost:4000/compressed.js"></script>
+    <!--<script src="http://localhost:4000/assets/js/plugins/jquery-1.12.4.min.js"></script>
+    <script src="http://localhost:4000/assets/js/plugins/rrssb.min.js"></script>
+    <script src="http://localhost:4000/assets/js/slimmenu.js"></script>
+    <script src="http://localhost:4000/assets/js/main.js"></script> -->
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+  </body>
+</html>
