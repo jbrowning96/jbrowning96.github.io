@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Research"
-    url: /documentation
+    url: /research
   - title: "Resume"
-    url: /netlify-cms-jekyll-setup
+    url: /resume.pdf
   - title: "Blog"
     url: /blog        
   - title: "Submenu"
