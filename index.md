@@ -14,8 +14,7 @@ Here is a site where you can find my notes, various templates and tools that I u
 
 If you would like to contact me, please reach out to me at JustinBrowning@my.unt.edu.
 
-## Latest from the blog
-
+## Latest Posts
 
 
 
