@@ -1,5 +1,5 @@
 ---
-seotitle:  An Example SEO Title 
+seotitle:  A Hello World Post
 title: An Example Post With Featured Image
 description: Example meta description
 author: Mighil
@@ -14,6 +14,7 @@ tags:
   - example
 ---
 
+Hello world! 
 
 ## Chengdu
 

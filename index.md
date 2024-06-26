@@ -1,22 +1,18 @@
 ---
 layout: home
 comments: false
-seotitle: SparrowX - Free Minimal SEO-friendly Jekyll Theme (Netlify CMS)
-description: Built on top of Sparro by lingxz, SparrowX is a clean and minimal free Jekyll theme by Mighil. This is a ready-made Jekyll theme for Netlify CMS. 
+seotitle: Justin Browning - Personal blog for academic and career purposes.
+description: This website is dedicated to blogging my thoughts throughout graduate school, as well as keeping track of tools that I am using. Using the SparrowX theme for Jekyll.
 ---
 
-Hi, I’m [@sparrow's](https://github.com/lingxz/sparrow) sister and my [mainainter](https://migftw.com) has made me compatible with NetlifyCMS. I am particularly great for a SEO-focused writer’s blog or personal webpage. I'm programmed to render your system font-stack and my performance grade is 94 on tools.pingdom.com.
+Hello! I'm Justin Browning, a graduate student studying Mathematics at the University of North Texas. I am broadly interested in 
+number theory and arithmetic geometry. 
 
-This is a demo. You can find the source code on [GitHub](https://github.com/migftw/sparrowx) and the documentation is available [on this page.](/documentation)
+Outside of Mathematics I enjoy watching and playing soccer, reading philosophy and playing a few video games when I have time to do so.
 
-## Credits
+Here is a site where you can find my notes, various templates and tools that I use, and lastly, an up-to-date CV.
 
-- Base theme sparrow by [lingxz](https://github.com/lingxz/sparrow)
-- Icon made by [Freepik](https://www.freepik.com/) from www.flaticon.com 
-
-## Tip Me
-
-Support if you’d like by referring my [resume](https://migftw.com/resume) or donating through [PayPal](https://www.paypal.me/mighil) or [Alipay](https://migftw.com/wp-content/uploads/2019/02/mighil-alipay.jpg).
+If you would like to contact me, please reach out to me at JustinBrowning@my.unt.edu.
 
 ## Latest from the blog
 
