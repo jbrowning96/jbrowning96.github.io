@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Documentation"
+  - title: "Research"
     url: /documentation
-  - title: "Netlify CMS"
+  - title: "Resume"
     url: /netlify-cms-jekyll-setup
   - title: "Blog"
     url: /blog        
