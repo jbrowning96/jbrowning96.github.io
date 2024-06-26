@@ -1,6 +1,6 @@
 ---
 seotitle:  A Hello World Post
-title: An Example Post With Featured Image
+title: A Hello World Post
 description: Example meta description
 author: Mighil
 type: post
