@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Research"
+  - title: "Notes"
     url: /research
   - title: "Resume"
     url: /resume
@@ -9,6 +9,8 @@ main:
   - title: "Submenu"
     url: /
     children: 
+      - title: "Notes"
+        url: /notes
       - title: "Sitemap"
         url: /sitemap.xml
       - title: "RSS"
