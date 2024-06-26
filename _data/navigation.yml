@@ -3,7 +3,7 @@ main:
   - title: "Research"
     url: /research
   - title: "Resume"
-    url: /resume.pdf
+    url: /resume
   - title: "Blog"
     url: /blog        
   - title: "Submenu"
