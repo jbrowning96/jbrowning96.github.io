@@ -1,6 +1,6 @@
 ### your site title here
 title: Justin Browning
-description: Graduate Student | University of North Texas | "The path up and down are one in the same" - Heraclitus of Ephesus
+description: Graduate Student | University of North Texas | Mathematics
 
 baseurl: "" #name of GitHub repository
 url: "jbrowning96.github.io" #custom url to be used instead of GitHub repository
@@ -49,12 +49,7 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+      - frais.md
 
 sass:
   sass_dir: /assets/css/_sass
