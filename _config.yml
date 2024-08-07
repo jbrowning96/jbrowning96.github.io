@@ -2,7 +2,7 @@
 title: Justin Browning
 description: Graduate Student | University of North Texas | "The path up and down are one in the same" - Heraclitus of Ephesus
 
-baseurl: / #name of GitHub repository
+baseurl: "" #name of GitHub repository
 url: "jbrowning96.github.io" #custom url to be used instead of GitHub repository
 email: justinbrowning@my.unt.edu
 
