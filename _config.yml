@@ -49,9 +49,9 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - project-euler.md
-      - integral-a-day.md
       - frais.md
+      - integral-a-day.md
+      - project-euler.md
 
 sass:
   sass_dir: /assets/css/_sass
