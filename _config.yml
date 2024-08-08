@@ -2,7 +2,7 @@
 title: Justin Browning
 description: Graduate Student | University of North Texas | Mathematics
 
-baseurl: "/" #name of GitHub repository
+baseurl: "" #name of GitHub repository
 url: "https://j-browning.com" #custom url to be used instead of GitHub repository
 email: justinbrowning@my.unt.edu
 
@@ -49,6 +49,8 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
+      - project-euler.md
+      - integral-a-day.md
       - frais.md
 
 sass:

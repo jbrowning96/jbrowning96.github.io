@@ -9,9 +9,11 @@ published: true
 
 Hello and welcome to my portfolio and blog! I am a graduate student at the University of North Texas currently working with [Jackson Morrow](https://sites.google.com/site/jacksonsalvatoremorrow/home?authuser=0).
 
-Currently, I am learning all one can learn about elliptic curves and my primary interests lie in the subfields of number theory and arithmetic geometry. Secondarily I am interested in physical stochastic modelling, with my current projects focusing on climate modelling.
+Currently, I am learning all one can learn about elliptic curves and my primary interests lie in the subfields of number theory and arithmetic geometry. Secondarily I am interested in physical and stochastic modelling, with my current projects focusing on climate modelling.
 
-Here you will find links to all of my current projects, my notes, and my ramblings, which all currently serve as a time capsule for my learning journey during graduate school.
+Here you will find links to all of my current projects, my notes, and my ramblings, which all currently serve as a time capsule for my learning journey throughout graduate school. 
+
+Additionally, and perhaps more importantly, you can find a complete CV [here](./portfolio)
 
 ### Contact information
 
