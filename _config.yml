@@ -2,8 +2,8 @@
 title: Justin Browning
 description: Graduate Student | University of North Texas | Mathematics
 
-baseurl: "" #name of GitHub repository
-url: "jbrowning96.github.io" #custom url to be used instead of GitHub repository
+baseurl: "/" #name of GitHub repository
+url: "https://www.jbrowning.me" #custom url to be used instead of GitHub repository
 email: justinbrowning@my.unt.edu
 
 # Pagination
