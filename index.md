@@ -13,7 +13,7 @@ Currently, I am learning all one can learn about elliptic curves and my primary 
 
 Here you will find links to all of my current projects, my notes, and my ramblings, which all currently serve as a time capsule for my learning journey throughout graduate school. 
 
-Additionally, and perhaps more importantly, you can find a complete CV [here](./portfolio)
+Additionally, and perhaps more importantly, you can find a complete CV [here](./resume)
 
 ### Contact information
 
