@@ -5,8 +5,6 @@ permalink: /resume/
 published: true
 ---
 
-# Justin T. Browning
-
 ## Education
 **University of North Texas** - M.S. Mathematics (Expected: May 2026)
 
