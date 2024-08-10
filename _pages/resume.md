@@ -4,6 +4,7 @@ layout: post
 permalink: /resume/
 published: true
 ---
+<br>
 
 ## Education
 **University of North Texas** - M.S. Mathematics (Expected: May 2026)
