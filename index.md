@@ -20,4 +20,4 @@ Additionally, and perhaps more importantly, you can find a complete CV [here](./
 - Office: GAB418
 - Email: justinbrowning(at)unt(dot)edu
 
-*Disclaimer: The views and opinions expressed in this page, or any subsequent pages, are strictly those of the only my own.*
+*Disclaimer: The views and opinions expressed in this page, or any subsequent pages, are strictly my own.*
